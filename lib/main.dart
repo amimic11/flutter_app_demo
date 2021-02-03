@@ -28,10 +28,7 @@ class MyHomePage extends StatelessWidget {
         title: Text(this.title),
       ),
       body: Center(
-        child: IconButton(
-          icon: Icon(Icons.accessible_forward),
-          iconSize: 90,
-        ),
+        child: Text('Hello World, this is my first ever app in flutter tutorial.'),
       ),
     );
   }
